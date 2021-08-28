@@ -1,0 +1,29 @@
+{
+  "name": "open-hack-poll-dapp-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/truffle build",
+    "compile": "./node_modules/.bin/truffle compile",
+    "migrate": "./node_modules/.bin/truffle migrate",
+    "test": "./node_modules/.bin/truffle test --stacktrace",
+    "test_debug": "./node_modules/.bin/truffle test --debug",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NameX44/open-hack-poll-dapp-contract.git"
+  },
+  "author": "contact@mobimite.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NameX44/open-hack-poll-dapp-contract/issues"
+  },
+  "homepage": "https://github.com/NameX44/open-hack-poll-dapp-contract#readme",
+  "dependencies": {
+    "truffle": "^5.4.8"
+  }
+}
