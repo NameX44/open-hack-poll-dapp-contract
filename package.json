@@ -12,7 +12,10 @@
     "migrate": "./node_modules/.bin/truffle migrate",
     "develop": "./node_modules/.bin/truffle develop",
     "test": "./node_modules/.bin/truffle test --stacktrace",
-    "test_debug": "./node_modules/.bin/truffle test --debug"
+    "test_debug": "./node_modules/.bin/truffle test --debug",
+    "clean": "rm -rf build/",
+    "deploy": "./node_modules/.bin/truffle migrate --network development",
+    "deploy:rinkeby": "t./node_modules/.bin/truffle migrate --network rinkeby"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,9 @@
   },
   "homepage": "https://github.com/NameX44/open-hack-poll-dapp-contract#readme",
   "dependencies": {
+    "@polyjuice-provider/truffle": "^0.0.1-rc9",
+    "@polyjuice-provider/web3": "^0.0.1-rc9",
+    "dotenv": "^10.0.0",
     "truffle": "^5.4.8"
   }
 }
